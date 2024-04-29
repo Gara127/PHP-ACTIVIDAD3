@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GGS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, userscalable=true, initial-scale=1.0, maximum-scale=3.0, minimumscale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="retirar.php">
+            <fieldset>
+              <legend>Elige de que parking deseas retirar el coche</legend>
+                <label>
+                    <input type="radio" name="plazas" value="grandes"> Plazas grandes 
+                </label></br></br>
+            
+                <label>
+                    <input type="radio" name="plazas" value="pequeñas"> Plazas pequeñas
+                </label></br></br>
+                    Introduce el número de plaza en la que se encuentra tu vehículo: <input type="number" name="numero" min="0" required><br>
+                
+            </fieldset>
+            <input type="submit" name="enviar"/>
+        </form>    
+    </body>
+</html> 

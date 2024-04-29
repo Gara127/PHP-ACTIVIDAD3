@@ -1,0 +1,14 @@
+<div id="formulario">
+	<h1>Calcula tu masa corporal</h1>
+	<form method="POST" action="imc_page.php">
+		<fieldset>
+			<legend>Rellena tus datos</legend>
+			Nombre:<input type="text" name="nombre"><br>
+			Año de nacimiento <input type="date" name="fecha" min="1930-01-01" max="<?php echo date('Y-m-d'); ?>"><br>
+			Introduce tu peso en KG <input type="number" name="peso" min="0" step="0.01" ><br>
+			Introduce tu altura <input type="number" name="altura" min="0" step="0.01" ><br>
+		</fieldset>
+			<input type="submit" name="enviar"/>
+	</form>
+</div>
+
